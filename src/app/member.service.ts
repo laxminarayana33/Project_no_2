@@ -11,7 +11,7 @@ import { memberInterface } from "./app.component";
 export class MemberService{
 
   constructor( private _http: HttpClient){  }
-  private _url = "../member.json";
+  private _url="../assets/member.json";
 
   getMember():Observable<memberInterface[]>{
    return this._http.get<memberInterface[]>(this._url);

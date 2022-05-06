@@ -7,7 +7,7 @@ import { MemberService } from './member.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project of api interface';
+  title = 'Project of Api Integration';
 
 
   members:any[] = [];
